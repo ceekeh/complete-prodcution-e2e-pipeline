@@ -4,7 +4,7 @@ pipeline{
     }
     tools {
         jdk 'Java17'
-        maven 'Maven3'
+        maven 'maven'
     }
     environment {
         APP_NAME = "complete-prodcution-e2e-pipeline"
